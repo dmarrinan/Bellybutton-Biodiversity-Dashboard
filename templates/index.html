@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Belly Button Biodiversity</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/css/stylesheet.css" />
+
 </head>
 
 <body>
@@ -22,28 +24,28 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
                 <div class="row">
-                    <div class="jumbotron">
-                        <p>Select Sample:</p>
+                    <div class="jumbotron" id="jumbotron_metadata">
+                        <p class="text-center">Select Sample:</p>
                         <select id="datasetSelect" onchange="optionChanged(this.value)"></select>
                     </div>
                 </div>
                 <div class="row">
                     <div class="card border-primary mb-3">
                         <div class="card-header bg-primary text-white">Sample Metadata</div>
-                        <div class="card-body" id="metadata_card"></div>
+                        <div class="card-body" id="metadataCard"></div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-                <div id="pieChart"></div>
+                <div id="pieChart" width="90%"></div>
             </div>
             <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-                <div id="gauge"></div>
+                <div id="gauge" width="90%"></div>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <div id="bubblePlot"></div>
+                <div id="bubbleChart" ,max-width="100%" ,height="auto"></div>
             </div>
         </div>
     </div>
