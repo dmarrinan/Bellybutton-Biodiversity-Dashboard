@@ -25,12 +25,14 @@
             <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
                 <div class="row">
                     <div class="jumbotron" id="jumbotron_metadata">
-                        <p class="text-center">Select Sample:</p>
-                        <select id="datasetSelect" onchange="optionChanged(this.value)"></select>
+                        <div class="text-center">
+                            <p>Select Sample:</p>
+                            <select id="datasetSelect" onchange="optionChanged(this.value)"></select>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card border-primary mb-3">
+                    <div class="card border-primary mb-3" id="metadata_card_container">
                         <div class="card-header bg-primary text-white">Sample Metadata</div>
                         <div class="card-body" id="metadataCard"></div>
                     </div>

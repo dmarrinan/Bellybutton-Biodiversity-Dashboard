@@ -130,7 +130,8 @@ function renderGauge(wfreq) {
         yaxis: {
             zeroline: false, showticklabels: false,
             showgrid: false, range: [-1, 1]
-        }
+        },
+        hovermode:false
     };
 
     Plotly.newPlot('gauge',data,layout);

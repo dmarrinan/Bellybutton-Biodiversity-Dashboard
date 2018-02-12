@@ -1,3 +1,8 @@
 #jumbotron_metadata{
-    margin:1rem;
+    margin:2rem;
+    padding:1rem;
+}
+
+#metadata_card_container{
+    margin:2rem;
 }
