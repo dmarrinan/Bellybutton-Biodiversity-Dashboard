@@ -17,3 +17,6 @@ To run the flask app type the following into the command line: <br/>
 `python app.py` <br/>
 <br/>
 Copy the local address listed into your browser and it will render the html page. Use the dropdown menu to switch between different subjects from the study.
+
+## Link to App
+https://morning-sands-91050.herokuapp.com/
